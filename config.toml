@@ -1,0 +1,8 @@
+baseURL = 'http://duke-hugo-screencast-sja-20220604.s3-website.us-east-2.amazonaws.com/'
+languageCode = 'en-us'
+title = 'Hugo AWS CD'
+theme = "ananke"
+[[deployment.targets]]
+# arbitrary name for the targets
+name = "awsbucket"
+URL = "s3://duke-hugo-screencast-sja-20220604/?region=us-east-2"
